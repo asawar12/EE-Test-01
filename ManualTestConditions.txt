@@ -1,0 +1,43 @@
+Positive Tests
+Add a Booking record with a deposit value of True
+Add a Booking Record with a deposit value of False
+Add a Booking Record with a Price including decimal (1 DP)
+Add a Booking Record with a Price including decimal (2 DP)
+Add a Booking Record with a Price- Whole number
+Delete an existing entry on the hotel booking form
+Negative Tests
+Confirm system does not allow System to add duplicate entries (Even though system allows it)
+Create a booking entry with all blank fields 
+Create a booking record to confirm mandatory fields – Missing FirstName
+Create a booking record to confirm mandatory fields – Missing Surname
+Create a booking record to confirm mandatory fields – Missing Price
+Create a booking record to confirm mandatory fields – Missing Deposit (System prevents this)
+Create a booking record to confirm mandatory fields – Missing Checkin Date
+Create a booking record to confirm mandatory fields – Missing Checkout Date
+Create a booking record to confirm Date Logic with a Checkin Date that is after the CheckoutDate (System allows it)
+Create a booking record to confirm user cannot create a booking for a date in the past (System allows it)
+
+Field Validation
+First Name and Surname
+Enter Numbers, Special characters, and spaces 
+Price
+Enter Text in Price field 
+Enter Special Characters in Price field
+Verify maximum number of characters in the fields
+Date fields
+Select a date using date picker and then change the dates to test following
+Enter date in the formats
+ YY – MM – DD
+ DD – MM – YYYY
+Enter Date with only numbers  
+Enter Date with only letters
+Enter Dates with letters and numbers
+Enter Dates with Month value greater than 12
+Enter Dates with Day values greater than 32
+Enter Dates – with a day value of 30 or 31 for Feb
+Check the day and month fields – accept more than 2 digits
+Check year field – accepts more than 5 digits for year value 
+Check  hyphens or Forward slash can be used
+Alternative flows
+Fill in the details – Click Save twice to confirm two records are not created
+Create Multiple records to check the pagination
